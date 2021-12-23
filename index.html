@@ -5,7 +5,7 @@
   </head>
   <body>
 
-    <p id="demo">Click here for the current time</p>
+    <p id="javascript time">Click here for the current time</p>
 
     <script>
     const d = new Date();
