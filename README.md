@@ -5,7 +5,7 @@
   </head>
   <body>
 
-    <p id="javascript time">Click here for the current time</p>
+    <p id="javascript time">Time changes every time the page is reloaded</p>
 
     <script>
     const d = new Date();
@@ -13,7 +13,7 @@
     document.getElementById("demo").innerHTML = time;
     </script>
 
-<p>This site is for testing and will be updated frequently and broken frequently</p>
+<p>This site is for testing and will be updated frequently and broken frequently.  The raw js time changes every time the page is reloaded</p>
 
   </body>
 </html>
