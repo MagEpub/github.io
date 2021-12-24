@@ -4,17 +4,16 @@
 
   </head>
   <body>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <P></P>
-    <p></p>
+    <p id= “formtitle” >ABC Purchase Order</p>
 
-    <p>Date/Time: <span id="datetime"></span></p>
+    <p id= “ordernumber” >Order Number</p>
 
-<script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
-</script>
+    <p id= “partnumber” >Part Number</p>
 
+    <p id= “description” >Description</p>
 
+    <p id= “quantity” >Quantity</p>
+
+    <p id= “specialnotes” >Ship FedEx Overnight</p>
   </body>
 </html>
