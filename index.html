@@ -8,14 +8,12 @@
     <P></P>
     <p></p>
 
-    <p id="javascript time"></p>
+    <p>Date/Time: <span id="datetime"></span></p>
 
-    <script>
-    const d = new Date();
-    let time = d.getTime();
-    document.getElementById("demo").innerHTML = time;
-    </script>
-
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+</script>
 
 
   </body>
